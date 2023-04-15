@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+.commonForm{
+  width: 35%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding:20px;
+  background-color: gray;
+  color: black;
+  box-shadow: 2px 2px 4px 1px #c6bcbc;
+  border-radius: 1px;
+}
+.Registerbtn{
+  background: transparent;
+  outline: none;
+  border: none;
+  background-color: rgb(8, 152, 49);
+  margin-right: 5px;
+}
+.Loginbtn{
+  background: transparent;
+  outline: none;
+  border: none;
+  background-color: rgb(188, 11, 32);
+  margin-right: 5px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Navbarclass{
+  margin-top: 4px;
+  background: transparent;
+  outline: none;
+  border: none;
+  background-color: rgb(8, 41, 97);
+  box-shadow: 1px 1px 4px 1px whitesmoke;
+  text-shadow: 4px 4px 4px black;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbarclass Dropdownclass{
+  text-decoration: none;
 }
